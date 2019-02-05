@@ -9,7 +9,7 @@
 import requests
 
 #Set the subscription key and text_analytics_base_url to the key and url from the text analytics Cognitive Service you create
-subscription_key = "3eeb229c488941a384c697adc22295df"
+subscription_key = "xxxxxxxxxxxxxxxxxxxxxxxx"
 text_analytics_base_url = "https://canadacentral.api.cognitive.microsoft.com/text/analytics/v2.0/"
 
 #Text Analytics can perform different tasks such as key phrase extraction and language detection
