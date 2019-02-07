@@ -6,7 +6,7 @@
 # Set subscription key to your own Azure subscription
 # Change face_api_url to point to the correct data center
 
-subscription_key = "2caf75c4f1bf4d43bf991dd665e4cd45"
+subscription_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 face_api_url = 'https://canadacentral.api.cognitive.microsoft.com/face/v1.0/detect'
 
 # Import the requests library to simplify making an HTTP Call from Python
