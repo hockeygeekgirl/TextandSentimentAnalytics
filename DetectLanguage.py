@@ -4,7 +4,7 @@
 import requests
 
 # Enter the subscription key and URL for your Text Analytics service
-subscription_key = "3eeb229c488941a384c697adc22295df"
+subscription_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 text_analytics_base_url = "https://canadacentral.api.cognitive.microsoft.com/text/analytics/v2.0/"
 
 # Modify the URL to call the language detection API
