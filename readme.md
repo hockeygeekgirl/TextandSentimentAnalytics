@@ -1,5 +1,5 @@
-# Analyzing emotion and sentiment
-The code in this repository uses a variety of approaches to analyze emotion and sentiment.
+# Analyzing text, emotion and sentiment
+The code in this repository uses a variety of approaches to analyze text, emotion and sentiment.
 
 The examples were created using [Python and Visual Studio code](https://code.visualstudio.com/docs/python/python-tutorial)
 
@@ -28,3 +28,14 @@ Related tutorials and resources:
 
 Files
 * CheckEmotionHTTPCall.py code to locate faces in an image and return facial characteristics and a score from 0.0 to 1.0 for an assortment of emotions
+
+## Detecting Language
+Language used: Python
+
+Services used: Azure Cognitive Service Text Analytics
+
+Related tutorials and resources: 
+* [QuickStart](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/python)
+
+Files
+* DetectLanguage.py code to detect the language in a string of text. e.g. is the text in English, French, or German
