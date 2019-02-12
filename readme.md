@@ -35,7 +35,7 @@ Language used: Python
 Services used: Azure Cognitive Service Text Analytics
 
 Related tutorials and resources: 
-* [QuickStart](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/python)
+* [Text analytics Python QuickStart](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/python)
 
 Files
 * DetectLanguage.py code to detect the language in a string of text. e.g. is the text in English, French, or German
