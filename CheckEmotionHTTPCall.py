@@ -6,7 +6,7 @@
 # Set subscription key to your own Azure subscription
 # Change face_api_url to point to the correct data center
 
-subscription_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+subscription_key = "2caf75c4f1bf4d43bf991dd665e4cd45"
 face_api_url = 'https://canadacentral.api.cognitive.microsoft.com/face/v1.0/detect'
 
 # Import the requests library to simplify making an HTTP Call from Python
@@ -28,9 +28,9 @@ import requests
 #End of code to uncomment for Option 1
 
 # Option 2 read image from local file
-# Happy person example one person in photo
+# Example 1: One person in photo looking happy
 # image_path = "./TestImages/GoldInMoguls.jpg"
-# Not so happy people example two people in photo
+# Example 2: Two people in photo looking disappointed
 image_path = "./TestImages/SilverSucks.jpg"
 
 # Create image data object to pass to Computer Vision API
@@ -44,9 +44,9 @@ params = {
     'returnFaceId': 'true',
     'returnFaceLandmarks': 'false',
 # If you want to see all the attributes that can be returned
-    'returnFaceAttributes': 'age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise',
+    # 'returnFaceAttributes': 'age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise',
 # If you just want whether they are smiling and emotion
-    # 'returnFaceAttributes': 'smile,emotion',
+    'returnFaceAttributes': 'smile,emotion',
 }
 
 # #Call Computer Vision API
@@ -54,20 +54,23 @@ response = requests.post(face_api_url, headers=headers, params=params, data=imag
 # End of code to uncomment for Option 2 Example of pointing to a local file
 
 #read JSON returned by Computer Vision API
+print("JSON returned")
 faces = response.json()
 print(faces)
-input()
+
 
 #Iterate through the results to examine the attributes you want to see
+print("\nEmotions:")
 for face in faces:
     #If you just want to look at one emotion you can access it directly
-    fr = face["faceAttributes"]["emotion"]["happiness"]
-    print("Happiness is " + str(fr))
+    # fr = face["faceAttributes"]["emotion"]["happiness"]
+    # print("Happiness is " + str(fr))
     #If you want to see the score for all emotions just loop through the results
+    print("")
     for key in face["faceAttributes"]["emotion"]:
         value = face["faceAttributes"]["emotion"][key]
-        print(str(key) + ":" + str(value))
-    input()
+        print(str(key) + ": " + str(value))
+input()
 
 #Sample JSON Output if you return only smile & emotion attributes
 # [{'faceId': '61e7513c-a970-49d9-8bf4-fe23e6eb5869', 
