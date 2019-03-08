@@ -37,6 +37,9 @@ Language used: F#
 
 Services used: Azure Cognitive Services Text Analytics - Key Phrases API
 
+Files
+* **ExtractKeyPhrases.py** not required to generate the word cloud from Power BI Desktop, but this code sample shows you how to call the text analytics service to extract key phrases directly from your Python code
+
 Related tutorials and resources: 
 * [Tutorial Power BI Word Cloud with Text Analytics](https://docs.microsoft.com/en-us/azure/cognitive-services/Text-Analytics/Tutorials/tutorial-power-bi-key-phrases)
 * [How to extract key phrases using Text Analytics](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
