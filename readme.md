@@ -41,3 +41,6 @@ Related tutorials and resources:
 * [How to extract key phrases using Text Analytics](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
 * [Power BI for report designers](https://docs.microsoft.com/en-us/power-bi/power-bi-creator-landing)
 * [BI Desktop Quickstart learn DAX basics](https://docs.microsoft.com/en-us/power-bi/desktop-quickstart-learn-dax-basics)
+
+Files
+* **CirqueDeSoleilReviews.csv** csv file containing reviews of the Cirque de Soleil show Love you can use to extract keyphrases and generate a word cloud
