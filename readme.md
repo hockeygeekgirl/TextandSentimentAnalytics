@@ -1,7 +1,13 @@
+
 # Analyzing emotion and sentiment
 The code in this repository uses a variety of approaches to analyze emotion and sentiment.
 
 The examples were created using [Python and Visual Studio code](https://code.visualstudio.com/docs/python/python-tutorial)
+
+## Presentation
+If you would like a copy fo the slide deck associated with this GitHub, you can find it on [Slide Share](https://www.slideshare.net/SusanIbach/they-love-me-they-love-me-not) 
+
+
 
 ## Analyzing text sentiment
 
