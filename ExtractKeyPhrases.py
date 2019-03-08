@@ -2,7 +2,7 @@
 import requests
 
 # Set Subscription key and URL based on properties of your Text Analytics service
-subscription_key = "3eeb229c488941a384c697adc22295df"
+subscription_key = "xxxxxxxxxxxxxx"
 text_analytics_base_url = "https://canadacentral.api.cognitive.microsoft.com/text/analytics/v2.0/"
 
 # Point to keyphrases API of Text Analytics service
