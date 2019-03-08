@@ -10,6 +10,7 @@ Language used: Python
 Services used: Azure Cognitive Service Text Analytics
 
 Related tutorials and resources:
+* [How to sign up for the Text Analytics API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-signup)
 * [Text analytics Python quickstart](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/python)
 
 Files:
