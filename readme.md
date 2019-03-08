@@ -15,6 +15,7 @@ Related tutorials and resources:
 
 Files:
 * **AnalyzeTextSentiment.py** code to analyze text and return a score from 0.0 to 1.0 indicating whether the sentiment is negative (0.0) or positive (1.0)
+* **DetectLanguage.py** code that will detect the language in a string of text
 
 ## Analyzing emotion and faces
 Language used: Python
